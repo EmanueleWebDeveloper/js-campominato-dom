@@ -45,17 +45,10 @@ function play(number, className) {
         box.classList.add(className)
 
 
-        // box.addEventListener("click", function () {
-        //     this.classList.toggle("clicked")
-        //     console.log("Il numero del box cliccato è: " + i)
-        // })
-
+       
         function clickedBox() {
 
-            // if (gameOver = true) {
-            //     return
-            // }
-
+        
             if (arrayBombe.includes(i)) {
                 this.classList.add("bomb")
                 console.log("hai perso")
